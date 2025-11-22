@@ -1,0 +1,192 @@
+/* ======== RESETEO ======== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f6f6f6;
+    color: #333;
+}
+
+/* ======== HEADER ======== */
+.main-header {
+    background: #1e3a5f;
+    padding: 15px 40px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #dcdcdc;
+}
+
+.nav a:hover {
+    color: white;
+}
+
+.btn-nav {
+    padding: 8px 15px;
+    background: #3498db;
+    border-radius: 5px;
+    color: white !important;
+}
+
+/* ======== HERO ======== */
+.hero {
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    flex-wrap: wrap;
+    background: white;
+    border-bottom: 3px solid #3498db;
+}
+
+.hero-text {
+    flex: 1 1 400px;
+    padding-right: 30px;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #1e3a5f;
+}
+
+.hero-text p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+.btn {
+    display: inline-block;
+    background: #3498db;
+    padding: 12px 25px;
+    text-decoration: none;
+    color: white;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #1e73b3;
+}
+
+.hero-img img {
+    width: 420px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+}
+
+/* ======== GALERÍA ======== */
+.galeria {
+    padding: 40px;
+    text-align: center;
+}
+
+.galeria h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #1e3a5f;
+}
+
+.galeria-grid {
+    margin-top: 25px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.img-box img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+/* ======== FOOTER ======== */
+.main-footer {
+    background: #1e3a5f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* ======== RESPONSIVE ======== */
+@media (max-width: 768px) {
+    .hero {
+        text-align: center;
+        padding: 25px;
+    }
+
+    .hero-text {
+        padding-right: 0;
+    }
+
+    .hero-img img {
+        margin-top: 20px;
+        width: 90%;
+    }
+}
+
+/* ===== FORM HERO ===== */
+.form-hero {
+    background: #1e3a5f;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.form-hero h1 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+.form-hero p {
+    font-size: 1.1rem;
+}
+
+/* ===== FORMULARIO ESTILADO ===== */
+.form-container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.formulario-estilado {
+    background: white;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    border-top: 4px solid #3498db;
+}
+
+/* Efectos de focus */
+.form-control:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 6px rgba(52,152,219,0.7);
+}
+
+/* Estilo de labels */
+label {
+    font-weight: bold;
+    color: #1e3a5f;
+}
+
+.col-md-6, .col-md-4, .col-12 {
+    text-align: left;
+}
+
+
+
+
